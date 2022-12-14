@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head lang="ro">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta charset="utf-8">
+	<meta name="author" content="Marisa Melendez">
+
+  <meta name="keywords" content="Start Up, IT, AI, Search Engine, Fashion, Trends, Sizes, Shop ">
+
+	<meta name="description" content="Live Size este o aplicație facuta cu AI pentru Fashion">
+
+	<title>Live Size</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
+
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">
+
+<style>
+
+.navbar {
+        background-color: rgb(129, 127, 128);
+        display: flex;
+        padding: 8px;
+        align-items: right;
+        justify-content: space-between;
+        }
+
+        .navbar .navbar-brand {
+            font-size: 30px;
+            line-height: 50px;
+            margin-bottom: 0;
+            margin-right: 30px;
+        }
+
+        .navbar .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        .navbar .nav-link {
+            color: white;
+        }
+
+    .site-header{
+        background-color: pink;
+    }
+    
+
+    .carousel-img {
+            object-fit: cover;
+            height: 40rem;
+    }
+
+    .image2 {
+        flex-basis:20%;
+    }
+
+    .text {
+        font-size: medium;
+        padding-left: 20px;
+      }
+
+      
+      .row {
+  display: flex;
+}
+
+.column2 {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+h1 { 
+    display: inline-block;
+  white-space: nowrap;
+
+}
+
+
+</style>
+</head> 
+	<body class="background-color">
+
+          <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+
+              <a class="navbar-brand" href="index.html">
+                <img src="ecommerce.png" width="60" height="60" class="d-inline-block align-top" alt="telefon mobil cu o cămașă care arată sigla aplicației"><h1>LiveSize AI App</h1></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#desprenoi">Despre Noi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scopul">Scopul Nostru</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#facem">Ce facem</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experienta">Clienții</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacte">Contacte</a>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active ratio ratio-21x9">
+            <img src="achievement-agreement-arms.jpg" class="d-block w-100 carousel-img" alt="cinci mâini se întâlnesc în mijlocul unui birou într-o lovitură de pumn, au computere și notebook-uri pe birou și un telefon" >
+            <div class="carousel-caption d-none d-md-block">  
+            </div>
+          </div>
+
+          <div class="carousel-item ratio ratio-21x9">
+            <img src="home-office.jpg" class="d-block w-100 carousel-img" alt="Există un notebook cu un stilou pe el, lângă el un laptop deschis cu telefon și cafea în lateral." >
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+          <div class="carousel-item ratio ratio-21x9">
+            <img src="team-work3.jpg" class="d-block w-100 carousel-img" alt="este un grup de cinci oameni care lucrează în echipă, de la stânga la dreapta sunt două femei, un bărbat și o altă femeie și un alt bărbat, toți purtând costume formale într-un birou.">
+            <div class="carousel-caption d-none d-md-block ">
+            </div>
+          </div>
+
+          <div class="carousel-item ratio ratio-21x9">
+            <img src="office.jpg" class="d-block w-100 carousel-img" alt="o mână cu unghii vopsite în roz ține un iPhone 6">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+          <div class="carousel-item ratio ratio-21x9">
+            <img src="beard-chair-computer.jpg" class="d-block w-100 carousel-img" alt="un tânăr care poartă o cămașă albă zâmbește în timp ce se uită la computer în timp ce stă pe birou la serviciu">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br id="desprenoi">
+      <br>
+      <br>
+      <br>
+            <h2 style="text-align:center;"> Despre Noi  </h2>
+
+                <div class="element2">
+                  <div class="text">
+                    <p>Bună și bine ați venit la Live Size! În primul rând, dacă vă întrebați ce este un AI Start Up, gândiți-vă la el ca la orice altă idee de afaceri nouă pentru a deschide o companie pentru a oferi un serviciu, dar folosim ajutorul inteligenței artificiale pentru a ne optimiza scopul și a face mai ușor pentru client! </p>
+                </div>        
+              <div class="row">
+                <div class="column2">
+                  <img src="shopping-online.png" alt="un telefon cu aplicații și un card de cumpărături pentru a afișa cumpărăturile online" style="width:50%">
+                </div>
+                <div class="column2">
+                  <img src="search.png" alt="o lupă se uită la imagini cu o cămașă și 2 perechi de pantaloni pentru a arăta căutarea" style="width:50%">
+                </div>
+                <div class="column2">
+                  <img src="fashion-design.png" alt="este prezentat un manechin cu bandă de măsurat și un fir de ac" style="width:50%">
+                </div>
+              </div>
+            </div>
+
+            <h3 style="text-align:center;"> Despre echipa noastră  </h3>
+            <div class="element2">
+                <p>Suntem formați dintr-un grup dedicat de oameni care au împărtășit experiențe similare cu cumpărăturile online și s-au reunit pentru a oferi utilizatorilor acestui nou sistem cea mai bună experiență posibilă. Prin ani de muncă grea, planificare, experimente (și o mulțime de coduri) vă aducem cea mai recentă actualizare a sistemului nostru și sperăm să ne îmbunătățim în funcție de nevoile dvs. </p> </div>
+
+                <br id="scopul">
+                <br>
+                <br>
+                <br>
+
+                <h2 style="text-align:center;">Scopul Nostru</h2>
+                <div class="element2">
+                    <p>Scopul nostru este să putem ajuta oamenii din întreaga lume care au probleme în a-și găsi dimensiunea, atât în ​​magazinele fizice, cât și online, astfel încât să se simtă incluși. Cu atât mai mult când aceste tendințe și mărci noi sunt în mare parte pentru dimensiuni mai mici. Scopul nostru pe termen lung este să ne extindem la mărci mai mari, deoarece acestea sunt cele mai consumate, și mai târziu la mărci de modă de ultimă generație precum Gucci, Chanel și multe altele!</p>
+                    <br>
+                    <p>Unii dintre noi au început cu studii de modă și au ajuns suficient de adânc în afacere pentru a înțelege cele mai mari defecte ale acesteia și a dezvolta pasiunea de a le rezolva.</p>
+                </div>
+            
+                <br id="facem">
+                <br>
+                <br>
+                <br>
+
+                <h2 style="text-align:center;"> Și un pic despre ce facem: </h2>
+            
+                <div class="column">
+                <div class="card">
+                  <img src="app.png" alt="Un telefon arată o aplicație cu o bifă verde pe ea și o mână care apasă pe ecran" style="width:100%">
+                  <div class="container">
+                    <h4><b>Fashion AI App</b></h4>
+                    <p>Aplicație care utilizează tehnologia AI poate pentru a vă măsura dimensiunile în direct cu camera telefonului și vă oferă cea mai precisă dimensiune, precum și recomandări în conformitate cu tendințele și mărcile populare actuale cu privire la ceea ce vă complementează dimensiunile. De asemenea, abordează problema mereu prezentă de a comanda online o dimensiune greșită și diagramele de conversie confuze. Disponibil pentru toate mărimile.
+                    </p>
+                  </div>
+                </div>
+            
+                <div class="card">
+                  <img src="fashion.png" alt="un telefon arată un pantof și o pereche de ochelari, lângă el este o geantă de cumpărături" style="width:100%">
+                  <div class="container">
+                    <h4><b>Cum a fost dezvoltat:</b></h4>
+                    <p>Folosind noua tehnologie din aplicațiile pentru decorarea casei, care vă pot spune de câți metri de bandă sau galoane de vopsea aveți nevoie pentru a picta un perete, precum și noul sistem de măsurare de la Apple integrat în camerele telefoanelor lor, am putut să dezvolta ceva și mai precis pentru corpul tău. Dezvoltat cu teste pe fiecare tip de corp și fiecare gen, precum și cu magazine potrivite.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <img src="ecommerce2.png" alt="un telefon arată o aplicație cu o cămașă roz pe ea" style="width:100%">
+                    <div class="container">
+                      <h4><b>Viitorul Nostru</b></h4>
+                      <p>Pentru viitorul nostru, sperăm să putem colabora cu mărci și magazine mari din întreaga lume. Cu cât ne conectăm mai mult, cu atât lumea modei poate deveni mai incluzivă. Lucrul cu Zara, H&M, Urban Outfitters și chiar cu mărci de ultimă generație precum Chanel, Gucci, Dior și multe altele. Odată ce aplicația noastră se extinde la aceste afaceri mai mari, va exista o diferență vizibilă și o îmbunătățire nu numai în ceea ce privește achizițiile, ci și pe pistă cu modele.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+
+              <br id="experienta">
+              <br>
+              <br>
+              <br>
+
+              <h2 style="text-align:center;">Experiența Clientului</h2>
+ 
+              <div class="container">
+              <div class="gallery">
+                
+                <div class="image">
+                  <img src="woman1.png" width="50%" alt="o femeie cu o cămașă roz zâmbindg">
+                <div class="desc">Melisa, 19 ani: „În calitate de viitor designer de modă, această invenție m-a surprins mai mult decât oricare alta și m-a inspirat să nu studiez doar estetica, ci și să îi ajut pe ceilalți să se simtă și mai frumoși purtând orice își doresc”.</div>
+                </div>
+          
+                <div class="image">
+                  <img src="woman2.png"  width="50%" alt="o femeie cu părul lung și o cămașă galbenă">
+                <div class="desc">Bianca, 40 de ani: „Ca mamă, corpul meu s-a schimbat și am fost nevoită să-mi arunc aproape toate hainele. Sunt prea ocupată să am grijă de copilul meu pentru a fi pot să merg la mall și să încerc noi dimensiuni, acum fac doar o poză de pe telefon și apoi trimit comanda!"</div>
+              </div>
+            </div>
+          
+              <div class="gallery">
+              <div class="image">  
+                  <img src="man1.png"  width="50%" alt="un bărbat cu cămașă albastră zâmbind">
+                <div class="desc">Radu, 30:
+                  „În copilărie, uram când mama mă ducea la cumpărături pentru haine, mai ales din cauza cât de plictisitor era să încerc fiecare piesă de îmbrăcăminte. Acum, pot face cumpărături fără să ies măcar din camera mea”.</div>
+                </div>
+          
+                <div class="image">
+                  <img src="man2.png"  width="50%" alt="un bărbat cu un costum albastru"> 
+                <div class="desc">Mihai, 24:
+                  „Ca om de afaceri ocupat, abia am timp să ies și să fac cumpărături pentru mine, chiar și atunci când trebuie să mă îmbrac formal în fiecare zi la serviciu. Acum, pot să-mi comand costumele personalizate, și îmi pot obține mărimile perfecte doar folosind camera telefonului meu!"</div>
+              </div>
+              </div>
+            </div>
+
+              <br>
+              <br>
+
+            <h3>Căutăm mai mulți colaboratori, vrei să fii în echipa noastră? </h3>
+            <div class="element2"><p> Oferim posturi de lucru de acasă și programe flexibile, trimite-ne CV-ul tău pe email și ne asigurăm că vom reveni la tine! În prezent lucrăm la dezvoltarea aplicației pentru mai multe dispozitive, deoarece acum este disponibilă doar pentru iPhone. Obiectivele noastre sunt de a dezvolta pentru: </p>     
+            <ul>
+                <li>1.tablete</li>
+                <li>2.telefoane Android</li>
+                <li>3.Laptop Webcams</li>
+            </ul>
+        </div>
+            <br id="contacte">
+            <br>
+            <br>
+            <br>
+
+                <div class="container">
+                <div style="text-align:center">
+                  <h2>Contactează-ne</h2>
+                  <p>Dă-ne recenzia ta sau idei noi! De obicei, vom răspunde în zilele lucrătoare între orele 9-12. Vom încerca să răspundem cât mai curând posibil</p>
+                <div class="row">
+                  <div class="column">
+                  </div>
+                    <form action="mailto:livesizeai@gmail.com">
+                      <label for="fname">Prenume</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Scrie ceva..">
+                      <label for="lname">Nume</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Scrie ceva..">
+                      <label for="subject">Subiect</label>
+                      <textarea id="subject" name="subject" placeholder="Scrie ceva.." ></textarea>
+                      <a href="mailto:livesizeai@gmail.com">
+                        <button class="button">
+                            Send
+                        </button>
+                    </a>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+         <footer>
+            <p> LiveSize AI App ©, 2022<br>
+            <a href="mailto:livesizeai@gmail.com">livesizeai@gmail.com</a> <br>
+            <p> Telefon: 0777 444 222</p>
+            <a href="https://twitter.com/login"  target="blank"><img style="text-align:right" src="twitter.png" height="30" width="30"> </a> 
+            <a href="https://www.facebook.com/" target="blank"><img style="text-align:right" src="facebook.png"  height="30" width="30"></a>
+            <a href="https://www.instagram.com/accounts/login/"  target="blank"><img style="text-align:right" src="instagram.png" height="30" width="30"></a>
+          </footer>     
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+          crossorigin="anonymous"> </script>
+
+	</body>
+</html>
